@@ -1,0 +1,2 @@
+document.querySelectorAll("li").forEach(function(e){if(e.childNodes.length>1){var n=[e.childNodes[0].textContent,e.childNodes[1]],l=n[0],t=n[1];e.innerHTML='<span class="slider">'.concat(l,"</span>"),e.appendChild(t)}}),document.querySelectorAll(".slider").forEach(function(e){e.addEventListener("click",function(){var n=e.nextElementSibling;n.style.display="none"===n.style.display?"":"none"})});
+//# sourceMappingURL=index.161b6e5a.js.map
